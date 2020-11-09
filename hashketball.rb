@@ -199,6 +199,7 @@ def player_stats(player_name)
     end
   end
   player_stats
+  binding.pry 
 end
 
 def big_shoe_rebounds
