@@ -193,13 +193,11 @@ def player_stats(player_name)
     team_details_hash[:players].each do |stats|
 
       if stats[:player_name] == player_name
-        stats.delete(:name)
         player_stats = stats
       end
     end
   end
   player_stats
-  binding.pry 
 end
 
 def big_shoe_rebounds
